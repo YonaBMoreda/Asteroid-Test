@@ -1,0 +1,6 @@
+general:
+  build_dir: asteroids
+
+machine:
+  java:
+    version: openjdk8
