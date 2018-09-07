@@ -5,11 +5,13 @@ In this repository we will put the assignments and helpful additional files that
 
 ## Submitting assignments
 
-Every group is given a repository, but no access to the master branch. Instead, you work on the development branch, and make pull requests to submit your assignments. When you do, your program will be sent to a continuous integration provider: [CirleCI](https://circleci.com/). CircleCI will run your tests, and only report success if all tests succeed. CircleCI is configured in the circle.yml file in the root of this repository. **Don't touch circle.yml**.
+Every group is given a repository, but no access to the master branch. Instead, you work on the development branch, and make pull requests to submit your assignments. When you do, your program will be sent to a continuous integration provider: [CirleCI](https://circleci.com/). CircleCI will run your tests, and only report success if all tests succeed. CircleCI is configured to build the currently assigned project by running `mvn integration-test`. If your project does not compile and pass all JUnit tests, then it will automatically be prevented from merging into the master branch. Any project which does not pass CircleCi will not be graded!
+
+ **Don't touch .circleci/config.yml**.
 
 To get started, clone the repository you've been given. (on the page of your own repository there should be a _clone or download_-button, which will provide you with the exact url). To use SSH, follow [Connecting to GitHub with SSH](https://help.github.com/articles/connecting-to-github-with-ssh/). Check out the development branch (`git checkout development`).
 
-In the new repo, do `git remote add assignments https://github.com/rug-advoop/2017_Assignments.git` (only once) to allow downloading assignments, then `git pull assignments master` to get the latest version of the assignments. When the repository updates, repeat the latter (expect a Nestor announcement). If git refuses, `git pull --allow-unrelated-histories assignments master` might work. Make an issue in the repository otherwise.
+In the new repo, do `git remote add assignments https://github.com/rug-advoop/2018_Assignments.git` (only once) to allow downloading assignments, then `git pull assignments master` to get the latest version of the assignments. When the repository updates, repeat the latter (expect a Nestor announcement). If git refuses, `git pull --allow-unrelated-histories assignments master` might work. Make an issue in the repository otherwise.
 
 ## Code Coverage
 
