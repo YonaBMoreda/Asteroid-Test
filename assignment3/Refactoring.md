@@ -1,7 +1,7 @@
 # Assignment 3 - Refactoring
 
 For this assignment you will be refactoring products of another group. To that
-end this folder contains four folders: dyingCats, chatBots and howItsMade. You can refactor any project, as long as it's 
+end this folder contains three folders: dyingCats, chatBots and howItsMade. You can refactor any project, as long as it's 
 **not the project you did for assignment 2.**
 These contain code from a group that completed that 
 assignment.
