@@ -25,5 +25,5 @@ jobs:
 
       # run tests!
       - run:
-            working_directory: assignment2
+            working_directory: asteroids
             command: mvn integration-test
